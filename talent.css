@@ -66,10 +66,15 @@ h2 {
     border-bottom: 3px solid #E7332B;
 }
 header {
-    height: 150px;
+    height: 100px;
     padding: 1.2rem;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: #FFFFFF;
 }
 header .nav-bar {
+    height: 100px;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -376,5 +381,11 @@ button {
 }
 .fourth-section .buttons {
     width: 80%;
+}
+.fourth-section .rope {
+    width: 300px;
+}
+.second-section .countries > div {
+    padding: 2px 4px 0px;
 }
 }
