@@ -827,6 +827,11 @@ footer .footer-bottom .foot-flex a {
         align-items: center;
         text-align: center;
     }
+    footer .footer-bottom p {
+        border-top: 1px solid #acabab;
+        width: 100%;
+        padding-top: 20px;
+    }
     footer .footer-bottom .foot-flex {
         flex-direction: column-reverse;
     }
